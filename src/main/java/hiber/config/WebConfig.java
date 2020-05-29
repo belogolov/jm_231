@@ -56,5 +56,4 @@ public class WebConfig implements WebMvcConfigurer {
         resolver.setCookieMaxAge(60);
         return resolver;
     }
-
 }

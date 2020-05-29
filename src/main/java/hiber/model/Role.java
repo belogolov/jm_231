@@ -21,12 +21,6 @@ public class Role implements GrantedAuthority {
     @Column(name = "role", nullable=false, unique = true)
     private String role;
 
-//    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-//    @JoinTable(name = "users_roles",
-//            joinColumns = @JoinColumn(name = "role_id"),
-//            inverseJoinColumns = @JoinColumn(name = "user_id"))
-//    private Set<User> users = new HashSet<>();
-
     public Role() {
     }
 

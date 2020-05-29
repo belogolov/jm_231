@@ -26,9 +26,6 @@
             <label>Password:
                 <input type="text" name="password" value="${user.password}"><br/>
             </label>
-<%--            <label>Roles:--%>
-<%--                <input type="text" name="roles" value="${user.roles}"><br/>--%>
-<%--            </label>--%>
             <h1></h1>
             <div class="row">
                 <div class="form-actions floatRight">

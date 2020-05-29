@@ -15,7 +15,6 @@ import java.util.Arrays;
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
-
 	@Autowired
 	UserService userService;
 

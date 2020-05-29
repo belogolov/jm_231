@@ -95,5 +95,4 @@ public class UserServiceImp implements UserService {
    public User getUserByEmail(String email) {
       return userDao.getUserByEmail(email);
    }
-
 }

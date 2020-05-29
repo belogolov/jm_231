@@ -5,6 +5,7 @@
 <head>
     <title><spring:message code="global.title" /></title>
 </head>
+
 <body>
     <%@ include file="logout.jsp" %>
     <b><spring:message code="global.tableTitle" /></b>

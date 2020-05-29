@@ -113,14 +113,6 @@ public class User implements UserDetails {
       this.password = password;
    }
 
-//   public String getRole() {
-//      return role;
-//   }
-//
-//   public void setRole(String role) {
-//      this.role = role;
-//   }
-
    public Set<Role> getRoles() {
       return roles;
    }

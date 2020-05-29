@@ -1,6 +1,5 @@
 package hiber.dao;
 
-
 import hiber.model.Role;
 
 public interface RoleDao{

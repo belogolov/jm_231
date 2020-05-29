@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-
 public interface UserDao {
    List<User> listUsers();
 
@@ -20,5 +19,4 @@ public interface UserDao {
    void delete(Long id);
 
    void update(User user);
-
 }

@@ -28,5 +28,4 @@ public class CharsetFilter implements Filter {
     @Override
     public void destroy() {
     }
-
 }

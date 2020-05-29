@@ -22,7 +22,6 @@
     <h1></h1>
     <p>Roles: ${user.roles}</p>
 </div>
-
 </body>
 </html>
 

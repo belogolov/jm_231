@@ -21,5 +21,4 @@ public class UserController {
 		model.addAttribute("user", userService.getUserByEmail(username));
 		return "homeUser";
 	}
-
 }
